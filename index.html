@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Roblox Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .video-wrapper {
+        position: relative;
+        overflow: hidden;
+        border-radius: 0.75rem; /* rounded-xl */
+      }
+
+      .overlay-text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 1rem;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-size: 1.25rem;
+        text-align: center;
+        z-index: 10;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-900 text-white">
+    <header class="bg-gray-800 p-6 text-center shadow">
+      <h1 class="text-3xl font-bold">Roblox Scripting Portfolio</h1>
+      <p class="text-gray-400 mt-2">My past scripting work</p>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-4 py-10 space-y-12">
+      <!-- 🎥 Video with overlay text -->
+      <div class="video-wrapper aspect-w-16 aspect-h-9">
+        <div class="overlay-text">Shop and Money system</div>
+        <iframe
+          class="w-full h-full"
+          src="https://www.youtube.com/embed/Hxa5RZ8u8rU"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <!-- Copy & paste below for more videos -->
+      <div class="video-wrapper aspect-w-16 aspect-h-9">
+        <div class="overlay-text">Vehicle System</div>
+        <iframe
+          class="w-full h-full"
+          src="https://www.youtube.com/watch?v=kQue7CjPsv0"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div class="video-wrapper aspect-w-16 aspect-h-9">
+        <div class="overlay-text">
+          Step counter, get speed from steps, nuke system and click to tp
+        </div>
+        <iframe
+          class="w-full h-full"
+          src="https://www.youtube.com/watch?v=De266Z3DiI0"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div class="video-wrapper aspect-w-16 aspect-h-9">
+        <div class="overlay-text">
+          Give effects by touching and whether system
+        </div>
+        <iframe
+          class="w-full h-full"
+          src="https://www.youtube.com/watch?v=x-_D4xPM1Zs"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <!-- Add more video blocks as needed -->
+    </main>
+
+    <footer class="bg-gray-800 text-center p-4 mt-12 text-gray-500">
+      &copy; 2025 YourName
+    </footer>
+  </body>
+</html>
